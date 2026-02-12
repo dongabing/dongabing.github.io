@@ -1,0 +1,51 @@
+---
+layout: experiences
+title: "Experiences"
+permalink: /experiences/
+---
+
+Hi
+
+This is the experiences page
+
+<div class="timeline">
+    {% for year_item in site.data.experiences %}
+        <div class="year">
+            <div class="inner">
+            <span>{{ year_item.year }}</span>
+            </div>
+        </div>
+        <ul class="days">
+        {% for event_item in year_item.events %}
+            <li class="day">
+                <div class="events">
+                    {% if event_item.icon %}
+                        <img src="{{ event_item.icon }}" alt="icon" class="icon">
+                    {% endif %}
+                    <p>{{ event_item.description }}</p>
+                    {% if event_item.vlog %}
+                        <p>
+                            {{ event_item.vlog }}
+                        </p>
+                    {% endif %}
+
+                    {% if event_item.blog %}
+                        <p>
+                            {{ event_item.blog }}
+                        </p>
+                    {% endif %}
+                    {% if event_item.figure %}
+                    <div class="day__img">
+                        <img src="{{ event_item.figure }}" alt="" />
+                        <p class="caption">
+                          {{ event_item.figure_caption }}
+                        </p>
+                      </div>
+                    {% endif %}
+                    <div class="date">{{ event_item.date }}</div>
+                </div>
+            </li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+  </div>

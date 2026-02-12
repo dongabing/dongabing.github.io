@@ -1,0 +1,27 @@
+- name: email
+  image: /assets/images/social_networks/email.svg
+  link: mailto:dongabing21@163.com
+
+- name: resume_zh
+  image: /assets/images/social_networks/CV_zh.svg
+  link: /assets/cv/resume_zh-2025-12-29.pdf
+
+#- name: resume_en
+#  image: /assets/images/social_networks/CV_en.svg
+#  link: /assets/cv/resume_en-2025-12-29.pdf
+
+- name: github
+  image: /assets/images/social_networks/github.svg
+  link: https://github.com/dongabing
+
+#- name: linkedin
+#  image: /assets/images/social_networks/linkedin.svg
+#  link: https://www.linkedin.com/in/xiaojizheng/
+
+- name: 知乎
+  image: /assets/images/social_networks/zhihu.svg
+  link: https://www.zhihu.com/people/mei-you-zhu-dong-xing-de-dab
+
+#- name: Google Scholar
+#  image: /assets/images/social_networks/google_scholar.svg
+#  link: https://scholar.google.com/citations?user=l0RRbygAAAAJ

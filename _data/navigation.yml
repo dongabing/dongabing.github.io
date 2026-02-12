@@ -1,0 +1,13 @@
+- name: Home
+  link: /
+- name: About
+  link: /about
+- name: Experiences
+  link: /experiences
+- name: Publications
+  link: /publications
+- name: Blog
+  link: /blog
+# its to ackward to show my CV...
+# - name: CV
+#   link: /cv

@@ -1,0 +1,47 @@
+- title: "CoIRL-AD: Collaborative–Competitive Imitation–Reinforcement Learning in Latent World Models for Autonomous Driving"
+  author_front: ""
+  me: "Xiaoji Zheng, "
+  author_behind: "Ziyuan Yang, Yanhao Chen, Yuhang Peng, Yuanrong Tang, Gengyuan Liu, Bokui Chen*, Jiangtao Gong*"
+  where: ""
+  figure: /assets/images/projects/co-irl.jpg
+  state: Under Review
+  what: We are trying to conbine the advantage of imitation learning (converge fast) and reinforcement learning (trial and error) to enhance the generalization ability of autonomous driving models.
+  website_link: https://seu-zxj.github.io/CoIRL-AD
+  paper_link: https://arxiv.org/abs/2510.12560
+  code_link: https://github.com/SEU-zxj/CoIRL-AD
+  hf_link: https://huggingface.co/Student-Xiaoji/CoIRL-AD-models
+
+- title: "Embodied Cognition Augmented End2End Autonomous Driving"
+  author_front: "Ling Niu, "
+  me: "Xiaoji Zheng"
+  author_behind: ", Han Wang, Ziyuan Yang, Chen Zheng, Bokui Chen*, Jiangtao Gong*"
+  where: "NeurIPS 2025"
+  figure: /assets/images/projects/embodied-cognitive-ad.jpg
+  state: Accept
+  what: We collect expert/novide drivers' <EEG, video> pair data, 1) align the EEG encoder and perception encoder via contrastive learning; 2) enhanced end-to-end AD models via integrating the cognition-aligned perception encoder.
+  paper_link: https://arxiv.org/abs/2511.01334
+
+- title: "Large Language Models Powered Context-aware Motion Prediction"
+  author_front: 
+  me: "Xiaoji Zheng"
+  author_behind: ", Lixiu Wu, Zhijie Yan, Yuanrong Tang, Hao Zhao, Chen Zhong, Bokui Chen, Jiangtao Gong*"
+  where: "IROS 2024"
+  # figure: /assets/images/projects/LLM-augmented-MTR.png
+  video: /assets/images/projects/llm-augmented-mtr-intro.mp4
+  state: Accept
+  what: We first teach Large Language Model (GPT4-V) to understand Bird's Eye View like transportation context maps and output context information (intention, affordance, and scenario). Then, these context information will integrated into motion prediction pipeline to assists motion prediction.
+  website_link: https://seu-zxj.github.io/LLM-Augmented-MTR
+  paper_link: https://arxiv.org/abs/2403.11057
+  code_link: https://github.com/SEU-zxj/LLM-Augmented-MTR
+
+- title: "Extended VR: Exploring the Integration of VR Experiences and Real-world Engagement"
+  author_front: 
+  me: "Xiaoji Zheng"
+  author_behind: ", Shaojun Sun, Ying Cao, Jiatong Li, Ding Ding, Zhuying Li*"
+  where: "Designing Interactive Systems 2023 Companion (DIS'23 Companion)"
+  figure: /assets/images/projects/ExtendedVR.png
+  state: Accept
+  what: In this paper, we explore whether the combination of virtual reality and ubiquitous computing can help overcome the limitation that Head-Mounted Displays based VR systems is often isolated from reality. 
+  website_link: 
+  paper_link: https://dl.acm.org/doi/abs/10.1145/3563703.3596636
+  code_link:

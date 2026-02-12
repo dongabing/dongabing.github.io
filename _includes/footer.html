@@ -1,0 +1,22 @@
+<footer>
+    <div>
+        By Abing Dong
+        <!--I close the hit tab, as the hit service is closed.-->
+        <!-- {% if page.url == "/" %}
+            <div>
+                <a href="https://hits.seeyoufarm.com" class="hits_link">
+                    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fseu-zxj.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" alt="hits"/>
+                </a>
+            </div>
+        {% endif %} -->
+    </div>
+    <div>
+        {% for item in site.data.social_networks %}
+        <div>
+            <a href="{{ item.link }}" target="_Blank">
+                <img class="social_network_icons" src="{{ item.image }}">
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</footer>

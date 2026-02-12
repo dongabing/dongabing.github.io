@@ -1,0 +1,60 @@
+- year: "current"
+  events:
+    - description: I got the National Scholarship✌
+      date: "2025-09"
+      blog: <span>blog comming soon!</span>
+    - description: Begin my new journey at SIGS, Tsinghua University!
+      date: "2024-09"
+      icon: /assets/images/icons/THU.svg
+      figure: /assets/images/experiences/cometo_sigs_v2.png
+      figure_caption: cute duck and cat at SIGS 😍🦆😺
+    - description: Graduated from Southeast University (SEU)
+      date: "2024-06"
+      icon: /assets/images/icons/SEU.svg
+      figure: /assets/images/experiences/graduated_from_seu_2.jpg
+      figure_caption: memory of SEU
+    - description: Start the 0th year of my master's degree at Institution for AI Industry Research, Tsinghua University.
+      date: "2024-03"
+      icon: /assets/images/icons/AIR.svg
+    - description: Finish my intern at HUAWEI, I will miss my nice mentor and colleagues😥
+      date: "2024-03-06"
+      figure: /assets/images/experiences/huawei_colleagues.jpg
+      figure_caption: my mentor and colleagues at HUAWEI
+      blog: <a href="https://zhuanlan.zhihu.com/p/688752857"><img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.zhihu.com%2Fapi%2Fv4%2Farticles%2F688752857%2Frelationship%3Fdesktop%3Dtrue&query=%24.text&logo=zhihu&label=%E3%80%8A%E5%AE%9E%E4%B9%A0%E5%9B%9E%E9%A1%BE%EF%BC%9A%E5%8D%8E%E4%B8%BA%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%AE%9E%E4%B9%A0%E7%94%9F%E3%80%8B&labelColor=white"></a>
+- year: "2024"
+  events:
+    - description: I got the Principles's Scholarship✌
+      date: "2023-10"
+      vlog: <a href="https://www.bilibili.com/video/BV1Zw411Y7Fx/?share_source=copy_web&vd_source=f689f2eaa027dab18ad7561e30d0f644"><img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.bilibili.com%2Fx%2Fweb-interface%2Fview%3Fbvid%3DBV1Zw411Y7Fx&query=%24.data.stat.coin&prefix=%E8%8E%B7%E5%BE%97&suffix=%E4%B8%AA%E7%A1%AC%E5%B8%81&logo=bilibili&logoColor=blue&label=%E3%80%8A%E6%A0%A1%E9%95%BF%E5%A5%96%E5%AD%A6%E9%87%91%E7%AD%94%E8%BE%A9%E5%AE%9E%E8%AE%B0%E3%80%8B&labelColor=white&color=pink"></a>
+    - description: Start my intern at HUAWEI as a Software Develop Engineer (SDE)!
+      date: "2023-09"
+      icon: /assets/images/icons/HUAWEI.svg
+    - description: Apply master's degree!
+      date: "2023-07~2023-09"
+      blog: <a href="https://zhuanlan.zhihu.com/p/659027931"><img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.zhihu.com%2Fapi%2Fv4%2Farticles%2F659027931%2Frelationship%3Fdesktop%3Dtrue&query=%24.text&logo=zhihu&label=%E3%80%8A%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8E%A8%E5%85%8D%E7%BB%8F%E9%AA%8C%E5%B8%96%E3%80%8B&labelColor=white"></a>
+      vlog: <a href="https://www.bilibili.com/video/BV1694y1E7WR/?share_source=copy_web&vd_source=f689f2eaa027dab18ad7561e30d0f644"><img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.bilibili.com%2Fx%2Fweb-interface%2Fview%3Fbvid%3DBV1694y1E7WR&query=%24.data.stat.coin&prefix=%E8%8E%B7%E5%BE%97&suffix=%E4%B8%AA%E7%A1%AC%E5%B8%81&logo=bilibili&logoColor=blue&label=%E3%80%8A2023%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B1%BB%E4%BF%9D%E7%A0%94vlog%E3%80%8B&labelColor=white&color=pink"></a>
+    - description: One short paper was accepted by ACM SIGCHI Designing Interaction Systems 2023 Companion!
+      date: "2023-07"
+    - description: Our SRTP project was selected as outstanding project!
+      date: "2023-05"
+- year: "2023"
+  events:
+    - description: I got the National Scholarship✌
+      date: "2022-10"
+      vlog: <a href="https://www.bilibili.com/video/BV1G94y1Y7aE/?share_source=copy_web&vd_source=f689f2eaa027dab18ad7561e30d0f644"><img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.bilibili.com%2Fx%2Fweb-interface%2Fview%3Fbvid%3DBV1G94y1Y7aE&query=%24.data.stat.coin&prefix=%E8%8E%B7%E5%BE%97&suffix=%E4%B8%AA%E7%A1%AC%E5%B8%81&logo=bilibili&logoColor=blue&label=%E3%80%8A%E5%9B%BD%E5%AE%B6%E5%A5%96%E5%AD%A6%E9%87%91%E7%AD%94%E8%BE%A9%E3%80%8B&labelColor=white&color=pink"></a>
+    - description: <p>Junior year begin!</p>
+      date: "2022-09"
+- year: "2022"
+  events:
+    - description: <p>Sophomore year begin!</p> I start a Student Research Training Program (SRTP) with my friends. This project trying to utilize Virtual Reality (VR) to relieve people's social anxiety, which is serious during COVID-19.
+      date: "2021-09"
+      figure: /assets/images/experiences/srtp_friends.jpg
+      figure_caption: members of this project
+      icon:
+- year: "2021"
+  events:
+    - description: Start my journey at Southeat University (SEU)!
+      date: "2020-09"
+      icon: /assets/images/icons/SEU.svg
+- year: "2020"
+  events:

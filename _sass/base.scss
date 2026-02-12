@@ -1,0 +1,20 @@
+$content-width: 90%;
+$main: #000000;
+// original main #19ccaa
+$font-style: 'Open Sans', sans-serif;
+$font-color: #262626;
+$link-color: #425469;
+$link-hover-color: $main;
+$heading-font: 'Muli', sans-serif;
+$heading-font-color: #425469;
+$light: #e7edf4;
+$header: #e7edf4;
+// original header #1d1425
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

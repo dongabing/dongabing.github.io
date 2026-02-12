@@ -1,0 +1,19 @@
+<aside>
+	<div class="container">
+		<nav>
+			<ul>
+                {% for item in site.data.navigation %}
+                    <li>
+                        <a href="{{ item.link }}">
+                            {{ item.name }}
+                        </a>
+                    </li>
+                {% endfor %}
+			</ul>
+		</nav>
+	</div>
+</aside>
+
+<!-- <header>
+	<h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+</header> -->

@@ -1,0 +1,65 @@
+---
+layout: post
+title: "visualize Kmeans for image compress"
+date:   2024-09-26 15:23:00 +0800
+categories: learning
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>visualize Kmeans for image compress</title>
+<style>
+  iframe {
+    width: 800px;
+    height: 600px;
+    border: none; /* remove border */
+  }
+  .diagram {
+    text-align: center; /* center captions */
+  }
+  .caption {
+      margin-top: 8px; /* space between diagram and caption */
+      font-size: 14px; /* adjust font size as needed */
+  }
+</style>
+</head>
+<body>
+
+    <p>Hi, I will share some K-means cluster results here with you!</p>
+    <p>This is an image of 128*128 pixels, for each pixel, an vector of (red, green, blue) is used to stands for its color. And we can regard each pixel in the image as a point in a three dimension space with R, G, B axis.</p>
+      
+    <div align="center">
+        <image src="/assets/images/posts/kmeans/orig_small.png">
+    </div>
+    
+    <p>If we visualize all pixels of this image into a 3 dimension space, we will find a point cloud! There are 128*128=16384 points in total. What we want to do is to compressed the image, in other words, instead of rendering the image via nearly 16384 points in RGB space, can you only use 16 color points?</p>
+    
+    <p>With this motivation, we conduct k-means algoirthms on the image.</p>
+    
+    <p>Below are visualization results:</p>
+    
+    <div align="center">
+      <iframe src="/assets/html/posts/kmeans/kmeans_1.html"></iframe>
+      <div class="caption">Kmeans Itertion #1</div>
+    </div>
+
+    <div align="center">
+      <iframe src="/assets/html/posts/kmeans/kmeans_2.html"></iframe>
+      <div class="caption">Kmeans Itertion #2</div>
+    </div>
+
+    <div align="center">
+      <iframe src="/assets/html/posts/kmeans/kmeans_3.html"></iframe>
+      <div class="caption">Kmeans Itertion #3</div>
+    </div>
+
+    <div align="center">
+      <iframe src="/assets/html/posts/kmeans/kmeans_30.html"></iframe>
+      <div class="caption">Kmeans Itertion #30</div>
+    </div>
+    
+
+
+</body>
+</html>

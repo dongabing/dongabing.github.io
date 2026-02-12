@@ -1,0 +1,63 @@
+---
+layout: page
+title: "Publications"
+permalink: /publications/
+---
+
+<div class="publication_list">
+    {% for item in site.data.publications %}
+    <div class="publication_box">
+        <div class="publication_left_box">
+            {% if item.figure %}
+                <img src="{{ item.figure }}" alt="figure of this paper">
+            {% endif %}
+            {% if item.video %}
+                <video autoplay loop muted>
+                    <source src="{{ item.video }}" type="video/mp4">
+                </video>
+            {% endif %}
+        </div>
+        <div class="publication_right_box">
+            <p class="title">{{ item.title }}</p>
+            <p class="author">
+                {{ item.author_front }}
+                <b> {{ item.me }} </b>
+                {{ item.author_behind }}
+            </p>
+            <p class="where">{{ item.where }} - {{ item.state }}</p>
+            <p class="what">{{ item.what }}</p>
+            {% if item.website_link %}
+                [
+                    <a href="{{ item.website_link }}" target="_Blank">
+                        website
+                    </a>
+                ]
+            {% endif %}
+
+            {% if item.paper_link %}
+                [
+                    <a href="{{ item.paper_link }}" target="_Blank">
+                        paper
+                    </a>
+                ]
+            {% endif %}
+
+            {% if item.code_link %}
+                [
+                    <a href="{{ item.code_link }}" target="_Blank">
+                        code
+                    </a>
+                ]
+            {% endif %}
+
+            {% if item.hf_link %}
+                [
+                    <a href="{{ item.hf_link }}" target="_Blank">
+                        HuggingFace
+                    </a>
+                ]
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
